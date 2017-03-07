@@ -11,6 +11,8 @@ int main(void)
     printf("Hello World!\n");
 
     printf(" * Square of 123 is %u\n", square(123));
-
+    printf(" * Square of 456 is %u\n", square(456));
+    printf(" * Square of 789 is %u\n", square(789));
+    
     return 0;
 }
