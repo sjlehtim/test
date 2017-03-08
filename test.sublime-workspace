@@ -8,18 +8,19 @@
 	"buffers":
 	[
 		{
-			"file": "src/main.c",
+			"contents": "build dce471e6a14af76662da697192de67d11472f62b seems to break gitgutter on linux\n",
 			"settings":
 			{
-				"buffer_size": 325,
-				"line_ending": "Unix"
+				"buffer_size": 81,
+				"line_ending": "Unix",
+				"name": "build dce471e6a14af76662da697192de67d11472f62b see"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Makefile/Make.sublime-build",
 	"command_palette":
 	{
-		"height": 292.0,
+		"height": 232.0,
 		"selected_items":
 		[
 			[
@@ -27,11 +28,31 @@
 				"Package Control: List Packages"
 			],
 			[
+				"lista",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
+				"git:status",
+				"Git: Status"
+			],
+			[
+				"remove ",
 				"Package Control: Remove Package"
 			],
 			[
@@ -64,9 +85,14 @@
 	},
 	"file_history":
 	[
-		"/home/sjlehtim/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/sjlehtim/src/test/src/main.c",
 		"/home/sjlehtim/src/test/src/CMakeLists.txt",
+		"/home/sjlehtim/src/test/src/main.c",
+		"/home/sjlehtim/.config/sublime-text-2/Packages/GitGutter/git_gutter_handler.py",
+		"/usr/lib/python2.7/zipfile.py",
+		"/usr/lib/python3.4/zipfile.py",
+		"/home/sjlehtim/.config/sublime-text-2/Packages/GitGutter/modules/promise.py",
+		"/home/sjlehtim/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+		"/home/sjlehtim/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/sjlehtim/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
 		"/home/sjlehtim/Downloads/airwave/build/src/host/CMakeFiles/airwave-host-32.dir/build.make",
 		"/home/sjlehtim/Downloads/airwave/build/CMakeFiles/Makefile2"
@@ -87,6 +113,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"set_timeout",
 			"trace",
 			"guter",
 			"gutter",
@@ -109,30 +136,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/main.c",
 					"settings":
 					{
-						"buffer_size": 325,
+						"buffer_size": 81,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								39,
-								39
+								81,
+								81
 							]
 						],
 						"settings":
 						{
-							"function_name_status_row": 2,
-							"git_gutter_enabled": true,
-							"syntax": "Packages/C++/C.tmLanguage"
+							"auto_name": "build dce471e6a14af76662da697192de67d11472f62b see",
+							"function_name_status_row": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -192,6 +217,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"cmakelists",
+				"CMakeLists.txt"
+			]
 		],
 		"width": 0.0
 	},

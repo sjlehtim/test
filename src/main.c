@@ -12,7 +12,8 @@ int main(void)
 
     printf(" * Square of 123 is %u\n", square(123));
     printf(" * Square of 456 is %u\n", square(456));
-    printf(" * Square of 789 is %u\n", square(789));
-    
+    printf(" * Square of 789 is %u\n", square(789));    
+    printf(" * Square of 1122 is %u\n", square(1122));
+
     return 0;
 }
